@@ -1,6 +1,6 @@
 == README
 
-Hello there! This is a todo app that I made following Mackenzie Child, most awesome tutorial in Youtube. I'm sure he also followed some other guy's tutorial, but  I wanted to make sure credit was given where credit is due.
+Hello there! This is a todo app that I made following Mackenzie Child's most awesome tutorial in Youtube. I'm sure he also followed some other guy's tutorial, but  I wanted to make sure credit was given where credit is due.
 
 You can check out his video-tutorial here: https://youtu.be/fd1Vn-Wvy2w
 
