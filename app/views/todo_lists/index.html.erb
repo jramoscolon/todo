@@ -1,12 +1,14 @@
 
 <% @todo_lists.each do |todo_list| %>
-  <div class="index_row clearfix">
+  
   	<% if todo_list.user == current_user %>
-	    <h2 class="todo_list_title"><%= link_to todo_list.title, todo_list %></h2>
-	    <p class="todo_list_sub_title"><%= todo_list.description %></p>
-	    <p><%= todo_list.user.first_name %></p>
+  		<div class="index_row clearfix">
+		    <h2 class="todo_list_title"><%= link_to todo_list.title, todo_list %></h2>
+		    <p class="todo_list_sub_title"><%= todo_list.description %></p>
+		    <!-- <p><%= todo_list.user.first_name %></p> -->
+	    </div>
     <% end %>
-  </div>
+
 <% end %>
 
 
