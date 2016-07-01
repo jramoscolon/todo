@@ -14,6 +14,8 @@
  *= require_self
  */
 
+ @import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 
 $white_opaque: rgba(250, 250, 250, .3);
  $dark: #1F7972;
@@ -61,6 +63,15 @@ body {
 	-webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
 	box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
 	padding: 1em 0;
+}
+
+.form-box {
+	padding: 1.5em;
+}
+
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 24px;
 }
 
 .todo_list_title {
